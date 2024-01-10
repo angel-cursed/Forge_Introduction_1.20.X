@@ -1,7 +1,10 @@
-package net.angel_cursed.mcmod;
+package net.angel_cursed.mc_mod;
 
 import com.mojang.logging.LogUtils;
+import net.angel_cursed.mc_mod.block.ModBlocks;
+import net.angel_cursed.mc_mod.item.ModItems;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -14,16 +17,20 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-//test
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(MCMod.MOD_ID)
+
 public class MCMod {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "mcmod";
+    public static final String MOD_ID = "mc_mod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     public MCMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -34,6 +41,19 @@ public class MCMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.AURELITE);
+            event.accept(ModItems.RAW_AURELITE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
+            event.accept(ModBlocks.AURELITE_ORE);
+            event.accept(ModBlocks.END_STONE_AURELITE_ORE);
+            event.accept(ModBlocks.NETHER_AURELITE_ORE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.AURELITE_BLOCK);
+            event.accept(ModBlocks.RAW_AURELITE_BLOCK);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

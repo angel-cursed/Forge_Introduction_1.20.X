@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mc_mod:item/raw_aurelite"
+  }
+
+}
