@@ -2,6 +2,7 @@ package net.angel_cursed.mc_mod;
 
 import com.mojang.logging.LogUtils;
 import net.angel_cursed.mc_mod.block.ModBlocks;
+import net.angel_cursed.mc_mod.item.ModCreativeModeTab;
 import net.angel_cursed.mc_mod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,6 +31,7 @@ public class MCMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModCreativeModeTab.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

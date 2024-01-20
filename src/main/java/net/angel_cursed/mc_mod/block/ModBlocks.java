@@ -1,6 +1,6 @@
 package net.angel_cursed.mc_mod.block;
 
-import net.angel_cursed.mc_mod.*;
+import net.angel_cursed.mc_mod.MCMod;
 import net.angel_cursed.mc_mod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;

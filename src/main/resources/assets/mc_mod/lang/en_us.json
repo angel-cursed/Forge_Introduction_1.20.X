@@ -1,9 +1,12 @@
 {
   "item.mc_mod.aurelite": "Aurelite",
   "item.mc_mod.raw_aurelite": "Raw Aurelite",
+
   "block.mc_mod.aurelite_block": "Aurelite Block",
   "block.mc_mod.aurelite_ore": "Aurelite Ore",
   "block.mc_mod.end_stone_aurelite_ore": "End Stone Aurelite Ore",
   "block.mc_mod.nether_aurelite_ore": "Nether Aurelite Ore",
-  "block.mc_mod.raw_aurelite_block": "Raw Aurelite Block"
+  "block.mc_mod.raw_aurelite_block": "Raw Aurelite Block",
+
+  "creativetab.mod_tab": "Mod Tab"
 }

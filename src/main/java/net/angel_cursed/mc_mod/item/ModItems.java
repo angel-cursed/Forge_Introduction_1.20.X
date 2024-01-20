@@ -1,6 +1,6 @@
 package net.angel_cursed.mc_mod.item;
 
-import net.angel_cursed.mc_mod.*;
+import net.angel_cursed.mc_mod.MCMod;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
