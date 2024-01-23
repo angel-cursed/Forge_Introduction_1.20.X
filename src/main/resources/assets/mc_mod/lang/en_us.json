@@ -1,7 +1,8 @@
 {
   "item.mc_mod.aurelite": "Aurelite",
   "item.mc_mod.raw_aurelite": "Raw Aurelite",
-  "item.mc_mod.me tal_detector": "Metal Detector",
+  "item.mc_mod.metal_detector": "Metal Detector",
+  "block.mc_mod.sound_block": "Sound Block",
 
   "block.mc_mod.aurelite_block": "Aurelite Block",
   "block.mc_mod.aurelite_ore": "Aurelite Ore",

@@ -30,6 +30,7 @@ public class ModCreativeModeTab {
                         output.accept(ModBlocks.RAW_AURELITE_BLOCK.get());
 
                         output.accept(ModItems.METAL_DETECTOR.get());
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

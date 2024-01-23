@@ -1,11 +1,13 @@
 package net.angel_cursed.mc_mod.block;
 
 import net.angel_cursed.mc_mod.MCMod;
+import net.angel_cursed.mc_mod.block.custom.SoundBlock;
 import net.angel_cursed.mc_mod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -49,6 +51,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_AURELITE_ORE = registerBlock("deepslate_aurelite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of().explosionResistance(1200).requiresCorrectToolForDrops().destroyTime(6.0F).instrument(NoteBlockInstrument.BASEDRUM), UniformInt.of(5, 10)));
 
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     public static void register(IEventBus eventbus){
         BLOCKS.register(eventbus);
