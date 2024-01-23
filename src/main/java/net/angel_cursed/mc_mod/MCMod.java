@@ -49,12 +49,16 @@ public class MCMod {
         }
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
             event.accept(ModBlocks.AURELITE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_AURELITE_ORE);
             event.accept(ModBlocks.END_STONE_AURELITE_ORE);
             event.accept(ModBlocks.NETHER_AURELITE_ORE);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.AURELITE_BLOCK);
             event.accept(ModBlocks.RAW_AURELITE_BLOCK);
+        }
+        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS){
+            event.accept(ModItems.METAL_DETECTOR);
         }
     }
 

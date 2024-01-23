@@ -22,11 +22,14 @@ public class ModCreativeModeTab {
                         output.accept(ModItems.RAW_AURELITE.get());
 
                         output.accept(ModBlocks.AURELITE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_AURELITE_ORE.get());
                         output.accept(ModBlocks.NETHER_AURELITE_ORE.get());
                         output.accept(ModBlocks.END_STONE_AURELITE_ORE.get());
 
                         output.accept(ModBlocks.AURELITE_BLOCK.get());
                         output.accept(ModBlocks.RAW_AURELITE_BLOCK.get());
+
+                        output.accept(ModItems.METAL_DETECTOR.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

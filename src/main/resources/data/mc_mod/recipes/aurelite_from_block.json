@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mc_mod:aurelite_block"
+    }
+  ],
+  "result": {
+    "item": "mc_mod:aurelite",
+    "count": 9
+  },
+  "show_notification": true
+}

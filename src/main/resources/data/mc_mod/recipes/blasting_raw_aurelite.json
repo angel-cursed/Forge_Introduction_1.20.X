@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cooking_time": 100,
+  "experience": 5,
+  "group": "aurelite",
+  "ingredient": {
+    "item": "mc_mod:raw_aurelite"
+  },
+  "result": "mc_mod:aurelite"
+}
