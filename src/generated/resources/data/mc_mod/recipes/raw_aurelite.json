@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "aurelite",
+  "key": {
+    "#": {
+      "item": "mc_mod:raw_aurelite"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "mc_mod:raw_aurelite_block"
+  },
+  "show_notification": true
+}

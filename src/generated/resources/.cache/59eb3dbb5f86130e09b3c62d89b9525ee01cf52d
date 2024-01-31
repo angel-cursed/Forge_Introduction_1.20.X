@@ -1,0 +1,8 @@
+// 1.20	2024-01-31T14:17:03.5639097	Loot Tables
+5aede1bc4ac560b8c6816be4bdb5ede9f8b40358 data/mc_mod/loot_tables/blocks/aurelite_block.json
+3c0025d0f750c2a9345d65d81c48371ec4c31ef3 data/mc_mod/loot_tables/blocks/aurelite_ore.json
+b40d16509c4c3d54e8ce6a503662a99938ce4095 data/mc_mod/loot_tables/blocks/deepslate_aurelite_ore.json
+b4ea4b8840331f00794f85c070d2596bcb716305 data/mc_mod/loot_tables/blocks/end_stone_aurelite_ore.json
+3c554b7dcbc6d2a478e385d7069c460bf3515e7e data/mc_mod/loot_tables/blocks/nether_aurelite_ore.json
+1207a2578174cd1f7ec0c8c754bf491a8e25944e data/mc_mod/loot_tables/blocks/raw_aurelite_block.json
+ae7511cd9ecb5ff31a1e7e75c209b5be7f378cff data/mc_mod/loot_tables/blocks/sound_block.json

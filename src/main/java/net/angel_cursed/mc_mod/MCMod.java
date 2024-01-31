@@ -60,6 +60,10 @@ public class MCMod {
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS){
             event.accept(ModItems.METAL_DETECTOR);
         }
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
+            event.accept(ModItems.KOHLRABI);
+            event.accept(ModItems.PANCAKES);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

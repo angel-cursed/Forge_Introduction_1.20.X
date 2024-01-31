@@ -13,5 +13,15 @@
 
   "creativetab.mod_tab": "Mod Tab",
 
-  "item.mc_mod.metal_detector.no_valuables": "No Valuables Found, Sorry :)"
+  "item.mc_mod.metal_detector.no_valuables": "No Valuables Found, Sorry :)",
+
+  "item.mc_mod.kohlrabi": "Kohlrabi",
+  "item.mc_mod.pancakes": "Pancakes",
+
+  "item.mc_mod.peat_brick": "Peat Brick",
+
+  "tooltip.mc_mod.metal_detector.tooltip.shift": "Right Click on Blocks to find Valuables!",
+  "tooltip.mc_mod.metal_detector.tooltip": "Press §eSHIFT§r for more information!",
+
+  "tooltip.mc_mod.sound_block.tooltip": "Plays nice sounds when walking or right-clicking"
 }

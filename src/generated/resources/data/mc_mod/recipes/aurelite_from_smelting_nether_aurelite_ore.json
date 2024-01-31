@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 5.0,
+  "group": "aurelite",
+  "ingredient": {
+    "item": "mc_mod:nether_aurelite_ore"
+  },
+  "result": "mc_mod:aurelite"
+}

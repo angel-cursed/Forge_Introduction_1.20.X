@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mc_mod:pancakes"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wheat_and_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:egg"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wheat_and_egg",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mc_mod:pancakes"
+    ]
+  },
+  "sends_telemetry_event": false
+}

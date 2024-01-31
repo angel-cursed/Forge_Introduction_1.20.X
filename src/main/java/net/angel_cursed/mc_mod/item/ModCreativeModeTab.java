@@ -31,6 +31,11 @@ public class ModCreativeModeTab {
 
                         output.accept(ModItems.METAL_DETECTOR.get());
                         output.accept(ModBlocks.SOUND_BLOCK.get());
+
+                        output.accept(ModItems.KOHLRABI.get());
+                        output.accept(ModItems.PANCAKES.get());
+
+                        output.accept(ModItems.PEAT_BRICK.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
