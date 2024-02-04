@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mc_mod:aurelite"
+    }
+  },
+  "pattern": [
+    "AAA"
+  ],
+  "result": {
+    "item": "mc_mod:aurelite_slab"
+  },
+  "show_notification": true
+}

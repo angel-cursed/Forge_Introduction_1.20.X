@@ -1,6 +1,13 @@
-// 1.20	2024-01-31T14:17:03.5639097	Loot Tables
+// 1.20	2024-02-04T17:51:05.7507568	Loot Tables
 5aede1bc4ac560b8c6816be4bdb5ede9f8b40358 data/mc_mod/loot_tables/blocks/aurelite_block.json
+7fc25fb257fb2aed1cff7636496d340a84add499 data/mc_mod/loot_tables/blocks/aurelite_button.json
+0a2eb4f8743a1d93cdc6d9be5b8fe721c65adbde data/mc_mod/loot_tables/blocks/aurelite_fence.json
+2604127a216d7b8aac5151f4bc01f4f0b47a8b03 data/mc_mod/loot_tables/blocks/aurelite_fence_gate.json
 3c0025d0f750c2a9345d65d81c48371ec4c31ef3 data/mc_mod/loot_tables/blocks/aurelite_ore.json
+2f5a6a636a74d9f870db09b6522037883dc4349a data/mc_mod/loot_tables/blocks/aurelite_pressure_plate.json
+012198e9844a03c0f475d849a177de087f1b6009 data/mc_mod/loot_tables/blocks/aurelite_slab.json
+5fdc0c5a42b5464779dd9867e39f68c0942b98ff data/mc_mod/loot_tables/blocks/aurelite_stairs.json
+2f7578ed93f981998a0bcf233c45900c01110b68 data/mc_mod/loot_tables/blocks/aurelite_wall.json
 b40d16509c4c3d54e8ce6a503662a99938ce4095 data/mc_mod/loot_tables/blocks/deepslate_aurelite_ore.json
 b4ea4b8840331f00794f85c070d2596bcb716305 data/mc_mod/loot_tables/blocks/end_stone_aurelite_ore.json
 3c554b7dcbc6d2a478e385d7069c460bf3515e7e data/mc_mod/loot_tables/blocks/nether_aurelite_ore.json

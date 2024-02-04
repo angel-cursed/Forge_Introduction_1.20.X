@@ -23,5 +23,15 @@
   "tooltip.mc_mod.metal_detector.tooltip.shift": "Right Click on Blocks to find Valuables!",
   "tooltip.mc_mod.metal_detector.tooltip": "Press §eSHIFT§r for more information!",
 
-  "tooltip.mc_mod.sound_block.tooltip": "Plays nice sounds when walking or right-clicking"
+  "tooltip.mc_mod.sound_block.tooltip": "Plays nice sounds when walking or right-clicking",
+
+  "block.mc_mod.aurelite_stairs": "Aurelite Stair",
+  "block.mc_mod.aurelite_slab": "Aurelite Slab",
+
+  "block.mc_mod.aurelite_button": "Aurelite Button",
+  "block.mc_mod.aurelite_pressure_plate": "Aurelite Pressure Plate",
+
+  "block.mc_mod.aurelite_fence": "Aurelite Fence",
+  "block.mc_mod.aurelite_fence_gate": "Aurelite Fence Gate",
+  "block.mc_mod.aurelite_wall": "Aurelite Wall"
 }

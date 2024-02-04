@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mc_mod:block/aurelite_slab"
+    },
+    "type=double": {
+      "model": "mc_mod:block/aurelite_block"
+    },
+    "type=top": {
+      "model": "mc_mod:block/aurelite_slab_top"
+    }
+  }
+}

@@ -20,6 +20,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.AURELITE_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_AURELITE_BLOCK.get());
         this.dropSelf(ModBlocks.SOUND_BLOCK.get());
+        this.dropSelf(ModBlocks.AURELITE_STAIRS.get());
+        this.dropSelf(ModBlocks.AURELITE_BUTTON.get());
+        this.dropSelf(ModBlocks.AURELITE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.AURELITE_FENCE.get());
+        this.dropSelf(ModBlocks.AURELITE_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.AURELITE_WALL.get());
+        this.add(ModBlocks.AURELITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.AURELITE_SLAB.get()));
 
         this.add(ModBlocks.AURELITE_ORE.get(),
                 block -> createOreDrop(ModBlocks.AURELITE_ORE.get(), ModItems.RAW_AURELITE.get()));

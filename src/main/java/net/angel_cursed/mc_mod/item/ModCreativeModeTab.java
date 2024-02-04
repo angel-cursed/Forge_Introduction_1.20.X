@@ -29,6 +29,15 @@ public class ModCreativeModeTab {
                         output.accept(ModBlocks.AURELITE_BLOCK.get());
                         output.accept(ModBlocks.RAW_AURELITE_BLOCK.get());
 
+                        output.accept(ModBlocks.AURELITE_STAIRS.get());
+                        output.accept(ModBlocks.AURELITE_SLAB.get());
+                        output.accept(ModBlocks.AURELITE_FENCE.get());
+                        output.accept(ModBlocks.AURELITE_FENCE_GATE.get());
+                        output.accept(ModBlocks.AURELITE_WALL.get());
+
+                        output.accept(ModBlocks.AURELITE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.AURELITE_BUTTON.get());
+
                         output.accept(ModItems.METAL_DETECTOR.get());
                         output.accept(ModBlocks.SOUND_BLOCK.get());
 

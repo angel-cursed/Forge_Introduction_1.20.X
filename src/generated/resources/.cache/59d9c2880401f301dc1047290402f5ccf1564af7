@@ -1,5 +1,8 @@
-// 1.20	2024-01-31T14:17:03.5589242	Item Models: mc_mod
+// 1.20	2024-02-04T17:51:05.7467668	Item Models: mc_mod
 74427dd99f9a7f9d1f5922098ec598f325392dd2 assets/mc_mod/models/item/aurelite.json
+ff18ea0186123c3c112bf1b790f0b5985d540fee assets/mc_mod/models/item/aurelite_button.json
+368d3210a4dfe010308abdfa6bc28bbc9b6c4d26 assets/mc_mod/models/item/aurelite_fence.json
+00cb0b6924f5a01bb1f62e9bccee021f45a16878 assets/mc_mod/models/item/aurelite_wall.json
 0ce04a0330270419d56f40e3e7b418944865d668 assets/mc_mod/models/item/kohlrabi.json
 0dde6de07f468d49e20a1c57df31803a0d2e5e97 assets/mc_mod/models/item/metal_detector.json
 40f017ec18a5833a9735c26d93239a8d332db24c assets/mc_mod/models/item/pancakes.json

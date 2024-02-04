@@ -1,0 +1,13 @@
+{
+  "values": [
+    "mc_mod:aurelite_block",
+    "mc_mod:raw_aurelite_block",
+    "mc_mod:aurelite_ore",
+    "mc_mod:deepslate_aurelite_ore",
+    "mc_mod:end_stone_aurelite_ore",
+    "mc_mod:nether_aurelite_ore",
+    "mc_mod:sound_block",
+    "mc_mod:aurelite_slab",
+    "mc_mod:aurelite_stairs"
+  ]
+}

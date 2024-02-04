@@ -1,4 +1,4 @@
-// 1.20	2024-01-31T14:34:08.2793432	Recipes
+// 1.20	2024-02-01T18:26:09.4063699	Recipes
 9075157cfa853420cee1d6330b0a022ed4e2a143 data/mc_mod/advancements/recipes/misc/aurelite.json
 615d0b83d707c41a4530fbd8ec2e7e2c40856187 data/mc_mod/advancements/recipes/misc/aurelite_block.json
 b43c268b1e9d36ba0923b0ff2d9d5036296447d7 data/mc_mod/advancements/recipes/misc/aurelite_from_blasting_aurelite_ore.json
@@ -11,6 +11,7 @@ e64bae2c4110faa085475c2b32f16745802f0729 data/mc_mod/advancements/recipes/misc/a
 bc58d6b1e69c8ec1f90edc471ed9c520684ca6e2 data/mc_mod/advancements/recipes/misc/aurelite_from_smelting_end_stone_aurelite_ore.json
 d8f2c430a71d23b65e00db2092ab94da89ebb5f0 data/mc_mod/advancements/recipes/misc/aurelite_from_smelting_nether_aurelite_ore.json
 2ccc7f60224cd846f7450a4f91a8fab4378f1d22 data/mc_mod/advancements/recipes/misc/aurelite_from_smelting_raw_aurelite.json
+94ec065a77d93203f08fa253ad12fa1d00731e5e data/mc_mod/advancements/recipes/misc/aurelite_slab.json
 b9ab5203d7ea8058331414f2b2d210b3a3d55f6b data/mc_mod/advancements/recipes/misc/pancakes.json
 53f8fc72b3409bb558eb803649b292476383b0e1 data/mc_mod/advancements/recipes/misc/raw_aurelite.json
 6fa3a496c917b274a0d23e663a845d4efa791286 data/mc_mod/advancements/recipes/misc/raw_aurelite_block.json
@@ -26,6 +27,7 @@ dbfa542e9c74cac5397a077ec3beccd15f8205d2 data/mc_mod/recipes/aurelite_from_blast
 63fc176b19802c864b5da4d94df51435b9e0e39e data/mc_mod/recipes/aurelite_from_smelting_end_stone_aurelite_ore.json
 51dd78bf3c92f6f52bbaca2f77f531a28f8ca69d data/mc_mod/recipes/aurelite_from_smelting_nether_aurelite_ore.json
 349207eed9fa671fac8d12b2ca945d4d6cc03e19 data/mc_mod/recipes/aurelite_from_smelting_raw_aurelite.json
+16c0b8f3ca9f9450c57804b2be6c441e74b64d66 data/mc_mod/recipes/aurelite_slab.json
 77ebfecce79e8f2a8c8be3f002982c0ba47737b7 data/mc_mod/recipes/pancakes.json
 840ad46e32a27902d59192f9f7db1462f8a30340 data/mc_mod/recipes/raw_aurelite.json
 85a209142eb43957cf2c4d17863c6bbc20e5331c data/mc_mod/recipes/raw_aurelite_block.json

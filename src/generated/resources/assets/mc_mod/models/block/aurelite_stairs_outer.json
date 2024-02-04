@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "mc_mod:block/aurelite_block",
+    "side": "mc_mod:block/aurelite_block",
+    "top": "mc_mod:block/aurelite_block"
+  }
+}

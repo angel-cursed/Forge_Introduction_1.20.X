@@ -12,6 +12,7 @@ import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.SlabBlock;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -35,6 +36,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.AURELITE.get())
                 .unlockedBy("has_aurelite", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.AURELITE.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.AURELITE_SLAB.get())
+                .pattern("AAA")
+                .define('A', ModItems.AURELITE.get())
+                .unlockedBy("has_aurelite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModBlocks.AURELITE_SLAB.get()).build()))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.AURELITE.get(), 9)
